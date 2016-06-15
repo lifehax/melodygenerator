@@ -1,3 +1,6 @@
 obj
 ipch
 bin
+.vs
+MelodyGenerator.VC.VC.opendb
+MelodyGenerator.VC.db
