@@ -85,7 +85,7 @@
     <IncludePath>$(VC_IncludePath);..\MelodyGenerator;..\include;..\include\main;..\include\main\workspace;..\include\gui;..\include\music;..\include\music\scale;..\include\music\rhythm;..\include\music\note;..\include\music\pattern;..\include\music\harmony;..\include\music\preset_generators;..\include\music\preset_generators\type;..\include\music\preset_generators\impl;..\include\music\modulation;..\include\music\chord;W:\cpp\boost_1_61_0;$(WindowsSDK_IncludePath);</IncludePath>
     <LibraryPath>W:\cpp\boost_1_61_0\stage\lib;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86</LibraryPath>
     <OutDir>$(SolutionDir)\bin\$(Configuration)\</OutDir>
-    <IntDir>obj\$(Configuration)\</IntDir>
+    <IntDir>..\obj\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
