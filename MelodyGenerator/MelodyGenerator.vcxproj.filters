@@ -1,0 +1,814 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\music">
+      <UniqueIdentifier>{5001d346-a8b6-4b32-8ce3-9d0b4511d19a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\main">
+      <UniqueIdentifier>{63e9f93b-aacd-4b99-a398-f7863559f5b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui">
+      <UniqueIdentifier>{9650520d-4394-440e-b77f-8ca1c915e32f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\music">
+      <UniqueIdentifier>{1140cfbc-eae7-4d5c-8e73-1638d481e2ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\main">
+      <UniqueIdentifier>{b66dfa99-5cf7-4ca6-88cb-988ef5ce1153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui">
+      <UniqueIdentifier>{aff4c370-e597-4048-8ef8-00974f1d09fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\jdksmidi">
+      <UniqueIdentifier>{58db4253-7725-4bb4-8700-e612513f77ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\jdksmidi">
+      <UniqueIdentifier>{c0e5d8ed-8ff1-42e8-b077-ce67d54dca6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\main\workspace">
+      <UniqueIdentifier>{1199a5e5-0383-472a-b3ca-07230a482531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\music\harmony">
+      <UniqueIdentifier>{043f8b57-1f88-49b5-99ab-b5b7a433268a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\music\scale">
+      <UniqueIdentifier>{ec1b30ec-dacb-4211-8cb9-8d966bf4a8c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\music\chord">
+      <UniqueIdentifier>{7df4eddc-50c2-47b7-af48-cc30cafce8cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\music\note">
+      <UniqueIdentifier>{3f719632-df17-4d9b-862e-74218a779fe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\music\rhythm">
+      <UniqueIdentifier>{4f79479c-93a4-4642-a04f-064981d1de71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\music\preset_generators">
+      <UniqueIdentifier>{0642167a-ee1a-4282-ace0-58adc1133704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\music\pattern">
+      <UniqueIdentifier>{30b6e3fc-bd08-4a07-b36f-b013b6547ddb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\music\preset_generators\type">
+      <UniqueIdentifier>{a836f6bf-8073-4b46-82cc-d0083b176faa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\music\preset_generators\impl">
+      <UniqueIdentifier>{f3c3d8d3-6a6e-4627-a904-7f8351340df0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\music\modulation">
+      <UniqueIdentifier>{4cf530bb-da97-4304-9e48-21e56783a3b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\main\workspace">
+      <UniqueIdentifier>{4f4d3d79-771b-4fc9-91c3-04bab654e708}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\music\harmony">
+      <UniqueIdentifier>{e99db2b2-db79-4c0e-bd30-9736c4d8cbec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\music\scale">
+      <UniqueIdentifier>{2f2866b1-085e-4931-9f3b-430b13b1de43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\music\chord">
+      <UniqueIdentifier>{555c8256-4a4d-404d-9cb1-03c569847aee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\music\note">
+      <UniqueIdentifier>{10fb8ce3-2641-4669-a6b6-85da594b07b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\music\rhythm">
+      <UniqueIdentifier>{b3cd9d3b-fe65-432f-a5a5-7747c4dab276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\music\pattern">
+      <UniqueIdentifier>{9f51c3bc-ab7d-4104-8ac4-95a245f50046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\music\modulation">
+      <UniqueIdentifier>{f5e0ec07-f49b-4cd7-9772-465c634df437}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\music\preset_generators">
+      <UniqueIdentifier>{4006ce9c-a738-47c3-a9ac-37fd478116e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\music\preset_generators\type">
+      <UniqueIdentifier>{2e3d624f-7d9e-4c45-b214-be6e86bef7f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\music\preset_generators\impl">
+      <UniqueIdentifier>{5efbe7a4-101a-46d9-a017-f842d1bc5585}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\gui\AboutBox.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\gui\ComboBoxOption.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\gui\Event.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\gui\EventHandler.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\gui\EventSystem.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\gui\InstrumentListOption.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\gui\LogTab.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\gui\MainTabs.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\gui\MainWindow.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\gui\PresetGeneratorOptions.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\gui\PresetGeneratorTab.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\gui\TimeSignatureOption.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\gui\TrackOptionItem.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\gui\GeneratorResource.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\main\Generator.h">
+      <Filter>Header Files\main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\main\GeneratorException.h">
+      <Filter>Header Files\main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\main\GeneratorLog.h">
+      <Filter>Header Files\main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\main\MIDI.h">
+      <Filter>Header Files\main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\main\MIDITrack.h">
+      <Filter>Header Files\main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\main\PresetGeneratorTask.h">
+      <Filter>Header Files\main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\main\Song.h">
+      <Filter>Header Files\main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\ConnectedHarmonyMelody.h">
+      <Filter>Header Files\music</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\FunctionRandomRangeIntervalMelody.h">
+      <Filter>Header Files\music</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\Melody.h">
+      <Filter>Header Files\music</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\MelodyParameter.h">
+      <Filter>Header Files\music</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\MelodyRepeatMelody.h">
+      <Filter>Header Files\music</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\ModularMelody.h">
+      <Filter>Header Files\music</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\NoteByNoteMelody.h">
+      <Filter>Header Files\music</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\PhraseMelody.h">
+      <Filter>Header Files\music</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\RangeIntervalMelody.h">
+      <Filter>Header Files\music</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\main\workspace\Track.h">
+      <Filter>Header Files\main\workspace</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\main\workspace\TrackBoard.h">
+      <Filter>Header Files\main\workspace</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\main\workspace\TrackBoardMelody.h">
+      <Filter>Header Files\main\workspace</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\main\workspace\TrackBoardMelodyParams.h">
+      <Filter>Header Files\main\workspace</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\main\workspace\TrackBoardMelodyType.h">
+      <Filter>Header Files\main\workspace</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\main\workspace\TrackBoardParamRandomize.h">
+      <Filter>Header Files\main\workspace</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\main\workspace\TrackBoardParamVariation.h">
+      <Filter>Header Files\main\workspace</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\main\workspace\TrackBoardSubParam.h">
+      <Filter>Header Files\main\workspace</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\main\workspace\TrackChord.h">
+      <Filter>Header Files\main\workspace</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\main\workspace\TrackHarmonousNote.h">
+      <Filter>Header Files\main\workspace</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\main\workspace\TrackItem.h">
+      <Filter>Header Files\main\workspace</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\main\workspace\TrackNote.h">
+      <Filter>Header Files\main\workspace</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\harmony\Harmony.h">
+      <Filter>Header Files\music\harmony</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\chord\Chord.h">
+      <Filter>Header Files\music\chord</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\chord\WeightRandomChordGenerator.h">
+      <Filter>Header Files\music\chord</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\pattern\PatternGenerator.h">
+      <Filter>Header Files\music\pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\pattern\RandomPatternGenerator.h">
+      <Filter>Header Files\music\pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\preset_generators\SongGenerator.h">
+      <Filter>Header Files\music\preset_generators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\preset_generators\Type.h">
+      <Filter>Header Files\music\preset_generators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\preset_generators\impl\AeolianRandomGenerator.h">
+      <Filter>Header Files\music\preset_generators\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\preset_generators\impl\Max108RandomGenerator.h">
+      <Filter>Header Files\music\preset_generators\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\preset_generators\impl\MultiInstrumentRandomGenerator.h">
+      <Filter>Header Files\music\preset_generators\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\preset_generators\impl\PatternModulationMelodyGenerator.h">
+      <Filter>Header Files\music\preset_generators\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\preset_generators\impl\PerfectFifthGenerator.h">
+      <Filter>Header Files\music\preset_generators\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\preset_generators\impl\RandomIntervalMelodyGenerator.h">
+      <Filter>Header Files\music\preset_generators\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\preset_generators\impl\TwoMelodyChordRandomGenerator.h">
+      <Filter>Header Files\music\preset_generators\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\preset_generators\impl\TwoMelodySingleNoteRandomGenerator.h">
+      <Filter>Header Files\music\preset_generators\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\preset_generators\impl\WideRandomIntervalMelodyGenerator.h">
+      <Filter>Header Files\music\preset_generators\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\preset_generators\type\AeolianRandomType.h">
+      <Filter>Header Files\music\preset_generators\type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\preset_generators\type\Max108RandomType.h">
+      <Filter>Header Files\music\preset_generators\type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\preset_generators\type\MultiInstrumentRandomType.h">
+      <Filter>Header Files\music\preset_generators\type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\preset_generators\type\PatternModulationMelodyType.h">
+      <Filter>Header Files\music\preset_generators\type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\preset_generators\type\PerfectFifthType.h">
+      <Filter>Header Files\music\preset_generators\type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\preset_generators\type\RandomIntervalMelodyType.h">
+      <Filter>Header Files\music\preset_generators\type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\preset_generators\type\TwoMelodyChordRandomType.h">
+      <Filter>Header Files\music\preset_generators\type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\preset_generators\type\TwoMelodySingleNoteRandomType.h">
+      <Filter>Header Files\music\preset_generators\type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\preset_generators\type\WideRandomIntervalMelodyType.h">
+      <Filter>Header Files\music\preset_generators\type</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\rhythm\RandomRhythmGenerator.h">
+      <Filter>Header Files\music\rhythm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\rhythm\RhythmGenerator.h">
+      <Filter>Header Files\music\rhythm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\rhythm\WeightRandomRhythmGenerator.h">
+      <Filter>Header Files\music\rhythm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\note\Note.h">
+      <Filter>Header Files\music\note</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\scale\DoubleHarmonicMinorScale.h">
+      <Filter>Header Files\music\scale</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\scale\NaturalMinorScale.h">
+      <Filter>Header Files\music\scale</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\scale\Scale.h">
+      <Filter>Header Files\music\scale</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\modulation\ChordNoteModulation.h">
+      <Filter>Header Files\music\modulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\modulation\FunctionNoteModulation.h">
+      <Filter>Header Files\music\modulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\modulation\ModulatorFunctions.h">
+      <Filter>Header Files\music\modulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\modulation\NoteModulation.h">
+      <Filter>Header Files\music\modulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\modulation\PatternNoteModulation.h">
+      <Filter>Header Files\music\modulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\modulation\RandomNoteModulation.h">
+      <Filter>Header Files\music\modulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\modulation\RandomShiftNoteModulation.h">
+      <Filter>Header Files\music\modulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\music\modulation\ScaleNoteModulation.h">
+      <Filter>Header Files\music\modulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jdksmidi\advancedsequencer.h">
+      <Filter>Header Files\jdksmidi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jdksmidi\driver.h">
+      <Filter>Header Files\jdksmidi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jdksmidi\driverdump.h">
+      <Filter>Header Files\jdksmidi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jdksmidi\edittrack.h">
+      <Filter>Header Files\jdksmidi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jdksmidi\file.h">
+      <Filter>Header Files\jdksmidi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jdksmidi\fileread.h">
+      <Filter>Header Files\jdksmidi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jdksmidi\filereadmultitrack.h">
+      <Filter>Header Files\jdksmidi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jdksmidi\fileshow.h">
+      <Filter>Header Files\jdksmidi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jdksmidi\filewrite.h">
+      <Filter>Header Files\jdksmidi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jdksmidi\filewritemultitrack.h">
+      <Filter>Header Files\jdksmidi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jdksmidi\keysig.h">
+      <Filter>Header Files\jdksmidi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jdksmidi\manager.h">
+      <Filter>Header Files\jdksmidi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jdksmidi\matrix.h">
+      <Filter>Header Files\jdksmidi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jdksmidi\midi.h">
+      <Filter>Header Files\jdksmidi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jdksmidi\msg.h">
+      <Filter>Header Files\jdksmidi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jdksmidi\multitrack.h">
+      <Filter>Header Files\jdksmidi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jdksmidi\parser.h">
+      <Filter>Header Files\jdksmidi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jdksmidi\process.h">
+      <Filter>Header Files\jdksmidi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jdksmidi\queue.h">
+      <Filter>Header Files\jdksmidi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jdksmidi\sequencer.h">
+      <Filter>Header Files\jdksmidi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jdksmidi\showcontrol.h">
+      <Filter>Header Files\jdksmidi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jdksmidi\showcontrolhandler.h">
+      <Filter>Header Files\jdksmidi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jdksmidi\smpte.h">
+      <Filter>Header Files\jdksmidi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jdksmidi\song.h">
+      <Filter>Header Files\jdksmidi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jdksmidi\sysex.h">
+      <Filter>Header Files\jdksmidi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jdksmidi\tempo.h">
+      <Filter>Header Files\jdksmidi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jdksmidi\tick.h">
+      <Filter>Header Files\jdksmidi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jdksmidi\track.h">
+      <Filter>Header Files\jdksmidi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jdksmidi\utils.h">
+      <Filter>Header Files\jdksmidi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\jdksmidi\world.h">
+      <Filter>Header Files\jdksmidi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MusicGeneratorApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\gui\MBStringUtils.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MusicGeneratorApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gui\AboutBox.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gui\ComboBoxOption.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gui\Event.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gui\EventHandler.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gui\EventSystem.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gui\InstrumentListOption.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gui\LogTab.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gui\MainTabs.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gui\MainWindow.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gui\MBStringUtils.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gui\PresetGeneratorOptions.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gui\PresetGeneratorTab.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gui\TimeSignatureOption.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gui\TrackOptionItem.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_advancedsequencer.cpp">
+      <Filter>Source Files\jdksmidi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_driver.cpp">
+      <Filter>Source Files\jdksmidi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_driverdump.cpp">
+      <Filter>Source Files\jdksmidi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_edittrack.cpp">
+      <Filter>Source Files\jdksmidi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_file.cpp">
+      <Filter>Source Files\jdksmidi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_fileread.cpp">
+      <Filter>Source Files\jdksmidi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_filereadmultitrack.cpp">
+      <Filter>Source Files\jdksmidi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_fileshow.cpp">
+      <Filter>Source Files\jdksmidi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_filewrite.cpp">
+      <Filter>Source Files\jdksmidi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_filewritemultitrack.cpp">
+      <Filter>Source Files\jdksmidi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_keysig.cpp">
+      <Filter>Source Files\jdksmidi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_manager.cpp">
+      <Filter>Source Files\jdksmidi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_matrix.cpp">
+      <Filter>Source Files\jdksmidi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_midi.cpp">
+      <Filter>Source Files\jdksmidi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_msg.cpp">
+      <Filter>Source Files\jdksmidi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_multitrack.cpp">
+      <Filter>Source Files\jdksmidi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_parser.cpp">
+      <Filter>Source Files\jdksmidi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_process.cpp">
+      <Filter>Source Files\jdksmidi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_queue.cpp">
+      <Filter>Source Files\jdksmidi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_sequencer.cpp">
+      <Filter>Source Files\jdksmidi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_showcontrol.cpp">
+      <Filter>Source Files\jdksmidi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_showcontrolhandler.cpp">
+      <Filter>Source Files\jdksmidi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_smpte.cpp">
+      <Filter>Source Files\jdksmidi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_sysex.cpp">
+      <Filter>Source Files\jdksmidi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_tempo.cpp">
+      <Filter>Source Files\jdksmidi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_tick.cpp">
+      <Filter>Source Files\jdksmidi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_track.cpp">
+      <Filter>Source Files\jdksmidi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_utils.cpp">
+      <Filter>Source Files\jdksmidi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main\workspace\Track.cpp">
+      <Filter>Source Files\main\workspace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main\workspace\TrackBoard.cpp">
+      <Filter>Source Files\main\workspace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main\workspace\TrackBoardMelody.cpp">
+      <Filter>Source Files\main\workspace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main\workspace\TrackBoardMelodyParams.cpp">
+      <Filter>Source Files\main\workspace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main\workspace\TrackBoardMelodyType.cpp">
+      <Filter>Source Files\main\workspace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main\workspace\TrackBoardParamRandomize.cpp">
+      <Filter>Source Files\main\workspace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main\workspace\TrackBoardParamVariation.cpp">
+      <Filter>Source Files\main\workspace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main\workspace\TrackChord.cpp">
+      <Filter>Source Files\main\workspace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main\workspace\TrackHarmonousNote.cpp">
+      <Filter>Source Files\main\workspace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main\workspace\TrackItem.cpp">
+      <Filter>Source Files\main\workspace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main\workspace\TrackNote.cpp">
+      <Filter>Source Files\main\workspace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main\Generator.cpp">
+      <Filter>Source Files\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main\GeneratorException.cpp">
+      <Filter>Source Files\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main\GeneratorLog.cpp">
+      <Filter>Source Files\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main\MIDI.cpp">
+      <Filter>Source Files\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main\MIDITrack.cpp">
+      <Filter>Source Files\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main\MusicGenerator.cpp">
+      <Filter>Source Files\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main\PresetGeneratorTask.cpp">
+      <Filter>Source Files\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main\Song.cpp">
+      <Filter>Source Files\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\ConnectedHarmonyMelody.cpp">
+      <Filter>Source Files\music</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\FunctionRandomRangeIntervalMelody.cpp">
+      <Filter>Source Files\music</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\Melody.cpp">
+      <Filter>Source Files\music</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\MelodyParameter.cpp">
+      <Filter>Source Files\music</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\MelodyRepeatMelody.cpp">
+      <Filter>Source Files\music</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\ModularMelody.cpp">
+      <Filter>Source Files\music</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\NoteByNoteMelody.cpp">
+      <Filter>Source Files\music</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\PhraseMelody.cpp">
+      <Filter>Source Files\music</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\RangeIntervalMelody.cpp">
+      <Filter>Source Files\music</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\harmony\Harmony.cpp">
+      <Filter>Source Files\music\harmony</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\chord\Chord.cpp">
+      <Filter>Source Files\music\chord</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\chord\ChordNoteModulation.cpp">
+      <Filter>Source Files\music\chord</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\chord\WeightRandomChordGenerator.cpp">
+      <Filter>Source Files\music\chord</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\modulation\FunctionNoteModulation.cpp">
+      <Filter>Source Files\music\modulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\modulation\ModulationFunctions.cpp">
+      <Filter>Source Files\music\modulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\modulation\NoteModulation.cpp">
+      <Filter>Source Files\music\modulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\modulation\PatternMoteModulation.cpp">
+      <Filter>Source Files\music\modulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\modulation\RandomNoteModulation.cpp">
+      <Filter>Source Files\music\modulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\modulation\RandomShiftNoteModulation.cpp">
+      <Filter>Source Files\music\modulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\modulation\ScaleNoteModulation.cpp">
+      <Filter>Source Files\music\modulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\preset_generators\impl\AeolianRandomGenerator.cpp">
+      <Filter>Source Files\music\preset_generators\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\preset_generators\impl\Max108RandomGenerator.cpp">
+      <Filter>Source Files\music\preset_generators\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\preset_generators\impl\MultiInstrumentRandomGenerator.cpp">
+      <Filter>Source Files\music\preset_generators\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\preset_generators\impl\PatternModulationMelodyGenerator.cpp">
+      <Filter>Source Files\music\preset_generators\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\preset_generators\impl\PerfectFifthGenerator.cpp">
+      <Filter>Source Files\music\preset_generators\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\preset_generators\impl\RandomIntervalMelodyGenerator.cpp">
+      <Filter>Source Files\music\preset_generators\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\preset_generators\impl\TwoMelodyChordRandomGenerator.cpp">
+      <Filter>Source Files\music\preset_generators\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\preset_generators\impl\TwoMelodySingleNoteRandomGenerator.cpp">
+      <Filter>Source Files\music\preset_generators\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\preset_generators\impl\WideRandomIntervalMelodyGenerator.cpp">
+      <Filter>Source Files\music\preset_generators\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\preset_generators\type\AeolianRandomType.cpp">
+      <Filter>Source Files\music\preset_generators\type</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\preset_generators\type\Max108RandomType.cpp">
+      <Filter>Source Files\music\preset_generators\type</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\preset_generators\type\MultiInstrumentRandomType.cpp">
+      <Filter>Source Files\music\preset_generators\type</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\preset_generators\type\PatternModulationMelodyType.cpp">
+      <Filter>Source Files\music\preset_generators\type</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\preset_generators\type\PerfectFifthType.cpp">
+      <Filter>Source Files\music\preset_generators\type</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\preset_generators\type\RandomIntervalMelodyType.cpp">
+      <Filter>Source Files\music\preset_generators\type</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\preset_generators\type\TwoMelodyChordRandomType.cpp">
+      <Filter>Source Files\music\preset_generators\type</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\preset_generators\type\TwoMelodySingleNoteRandomType.cpp">
+      <Filter>Source Files\music\preset_generators\type</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\preset_generators\type\WideRandomIntervalMelodyType.cpp">
+      <Filter>Source Files\music\preset_generators\type</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\preset_generators\SongGenerator.cpp">
+      <Filter>Source Files\music\preset_generators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\preset_generators\Type.cpp">
+      <Filter>Source Files\music\preset_generators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\pattern\PatternGenerator.cpp">
+      <Filter>Source Files\music\pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\pattern\RandomPatternGenerator.cpp">
+      <Filter>Source Files\music\pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\rhythm\RandomRhythmGenerator.cpp">
+      <Filter>Source Files\music\rhythm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\rhythm\RhythmGenerator.cpp">
+      <Filter>Source Files\music\rhythm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\rhythm\WeightRandomRhythmGenerator.cpp">
+      <Filter>Source Files\music\rhythm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\note\Note.cpp">
+      <Filter>Source Files\music\note</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\scale\DoubleHarmonicMinorScale.cpp">
+      <Filter>Source Files\music\scale</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\scale\NaturalMinorScale.cpp">
+      <Filter>Source Files\music\scale</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\scale\Scale.cpp">
+      <Filter>Source Files\music\scale</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MelodyGenerator.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="MelodyGenerator.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

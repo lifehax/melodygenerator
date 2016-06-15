@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{853C8A01-BB90-45FB-9809-8EA86E429527}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>MelodyGenerator</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(VC_IncludePath);..\MelodyGenerator;..\include;..\include\main;..\include\main\workspace;..\include\gui;..\include\music;..\include\music\scale;..\include\music\rhythm;..\include\music\note;..\include\music\pattern;..\include\music\harmony;..\include\music\preset_generators;..\include\music\preset_generators\type;..\include\music\preset_generators\impl;..\include\music\modulation;..\include\music\chord;W:\cpp\boost_1_61_0;$(WindowsSDK_IncludePath);</IncludePath>
+    <LibraryPath>W:\cpp\boost_1_61_0\stage\lib;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86</LibraryPath>
+    <SourcePath>$(VC_SourcePath);</SourcePath>
+    <OutDir>$(SolutionDir)\bin\$(Configuration)\</OutDir>
+    <IntDir>..\obj\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(VC_IncludePath);..\MelodyGenerator;..\include;..\include\main;..\include\main\workspace;..\include\gui;..\include\music;..\include\music\scale;..\include\music\rhythm;..\include\music\note;..\include\music\pattern;..\include\music\harmony;..\include\music\preset_generators;..\include\music\preset_generators\type;..\include\music\preset_generators\impl;..\include\music\modulation;..\include\music\chord;W:\cpp\boost_1_61_0;$(WindowsSDK_IncludePath);</IncludePath>
+    <LibraryPath>W:\cpp\boost_1_61_0\stage\lib;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86</LibraryPath>
+    <OutDir>$(SolutionDir)\bin\$(Configuration)\</OutDir>
+    <IntDir>obj\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\gui\AboutBox.h" />
+    <ClInclude Include="..\include\gui\ComboBoxOption.h" />
+    <ClInclude Include="..\include\gui\Event.h" />
+    <ClInclude Include="..\include\gui\EventHandler.h" />
+    <ClInclude Include="..\include\gui\EventSystem.h" />
+    <ClInclude Include="..\include\gui\GeneratorResource.h" />
+    <ClInclude Include="..\include\gui\InstrumentListOption.h" />
+    <ClInclude Include="..\include\gui\LogTab.h" />
+    <ClInclude Include="..\include\gui\MainTabs.h" />
+    <ClInclude Include="..\include\gui\MainWindow.h" />
+    <ClInclude Include="..\include\gui\MBStringUtils.h" />
+    <ClInclude Include="..\include\gui\PresetGeneratorOptions.h" />
+    <ClInclude Include="..\include\gui\PresetGeneratorTab.h" />
+    <ClInclude Include="..\include\gui\TimeSignatureOption.h" />
+    <ClInclude Include="..\include\gui\TrackOptionItem.h" />
+    <ClInclude Include="..\include\jdksmidi\advancedsequencer.h" />
+    <ClInclude Include="..\include\jdksmidi\driver.h" />
+    <ClInclude Include="..\include\jdksmidi\driverdump.h" />
+    <ClInclude Include="..\include\jdksmidi\edittrack.h" />
+    <ClInclude Include="..\include\jdksmidi\file.h" />
+    <ClInclude Include="..\include\jdksmidi\fileread.h" />
+    <ClInclude Include="..\include\jdksmidi\filereadmultitrack.h" />
+    <ClInclude Include="..\include\jdksmidi\fileshow.h" />
+    <ClInclude Include="..\include\jdksmidi\filewrite.h" />
+    <ClInclude Include="..\include\jdksmidi\filewritemultitrack.h" />
+    <ClInclude Include="..\include\jdksmidi\keysig.h" />
+    <ClInclude Include="..\include\jdksmidi\manager.h" />
+    <ClInclude Include="..\include\jdksmidi\matrix.h" />
+    <ClInclude Include="..\include\jdksmidi\midi.h" />
+    <ClInclude Include="..\include\jdksmidi\msg.h" />
+    <ClInclude Include="..\include\jdksmidi\multitrack.h" />
+    <ClInclude Include="..\include\jdksmidi\parser.h" />
+    <ClInclude Include="..\include\jdksmidi\process.h" />
+    <ClInclude Include="..\include\jdksmidi\queue.h" />
+    <ClInclude Include="..\include\jdksmidi\sequencer.h" />
+    <ClInclude Include="..\include\jdksmidi\showcontrol.h" />
+    <ClInclude Include="..\include\jdksmidi\showcontrolhandler.h" />
+    <ClInclude Include="..\include\jdksmidi\smpte.h" />
+    <ClInclude Include="..\include\jdksmidi\song.h" />
+    <ClInclude Include="..\include\jdksmidi\sysex.h" />
+    <ClInclude Include="..\include\jdksmidi\tempo.h" />
+    <ClInclude Include="..\include\jdksmidi\tick.h" />
+    <ClInclude Include="..\include\jdksmidi\track.h" />
+    <ClInclude Include="..\include\jdksmidi\utils.h" />
+    <ClInclude Include="..\include\jdksmidi\world.h" />
+    <ClInclude Include="..\include\main\Generator.h" />
+    <ClInclude Include="..\include\main\GeneratorException.h" />
+    <ClInclude Include="..\include\main\GeneratorLog.h" />
+    <ClInclude Include="..\include\main\MIDI.h" />
+    <ClInclude Include="..\include\main\MIDITrack.h" />
+    <ClInclude Include="..\include\main\PresetGeneratorTask.h" />
+    <ClInclude Include="..\include\main\Song.h" />
+    <ClInclude Include="..\include\main\workspace\Track.h" />
+    <ClInclude Include="..\include\main\workspace\TrackBoard.h" />
+    <ClInclude Include="..\include\main\workspace\TrackBoardMelody.h" />
+    <ClInclude Include="..\include\main\workspace\TrackBoardMelodyParams.h" />
+    <ClInclude Include="..\include\main\workspace\TrackBoardMelodyType.h" />
+    <ClInclude Include="..\include\main\workspace\TrackBoardParamRandomize.h" />
+    <ClInclude Include="..\include\main\workspace\TrackBoardParamVariation.h" />
+    <ClInclude Include="..\include\main\workspace\TrackBoardSubParam.h" />
+    <ClInclude Include="..\include\main\workspace\TrackChord.h" />
+    <ClInclude Include="..\include\main\workspace\TrackHarmonousNote.h" />
+    <ClInclude Include="..\include\main\workspace\TrackItem.h" />
+    <ClInclude Include="..\include\main\workspace\TrackNote.h" />
+    <ClInclude Include="..\include\MusicGeneratorApp.h" />
+    <ClInclude Include="..\include\music\chord\Chord.h" />
+    <ClInclude Include="..\include\music\chord\WeightRandomChordGenerator.h" />
+    <ClInclude Include="..\include\music\ConnectedHarmonyMelody.h" />
+    <ClInclude Include="..\include\music\FunctionRandomRangeIntervalMelody.h" />
+    <ClInclude Include="..\include\music\harmony\Harmony.h" />
+    <ClInclude Include="..\include\music\Melody.h" />
+    <ClInclude Include="..\include\music\MelodyParameter.h" />
+    <ClInclude Include="..\include\music\MelodyRepeatMelody.h" />
+    <ClInclude Include="..\include\music\ModularMelody.h" />
+    <ClInclude Include="..\include\music\modulation\ChordNoteModulation.h" />
+    <ClInclude Include="..\include\music\modulation\FunctionNoteModulation.h" />
+    <ClInclude Include="..\include\music\modulation\ModulatorFunctions.h" />
+    <ClInclude Include="..\include\music\modulation\NoteModulation.h" />
+    <ClInclude Include="..\include\music\modulation\PatternNoteModulation.h" />
+    <ClInclude Include="..\include\music\modulation\RandomNoteModulation.h" />
+    <ClInclude Include="..\include\music\modulation\RandomShiftNoteModulation.h" />
+    <ClInclude Include="..\include\music\modulation\ScaleNoteModulation.h" />
+    <ClInclude Include="..\include\music\NoteByNoteMelody.h" />
+    <ClInclude Include="..\include\music\note\Note.h" />
+    <ClInclude Include="..\include\music\pattern\PatternGenerator.h" />
+    <ClInclude Include="..\include\music\pattern\RandomPatternGenerator.h" />
+    <ClInclude Include="..\include\music\PhraseMelody.h" />
+    <ClInclude Include="..\include\music\preset_generators\impl\AeolianRandomGenerator.h" />
+    <ClInclude Include="..\include\music\preset_generators\impl\Max108RandomGenerator.h" />
+    <ClInclude Include="..\include\music\preset_generators\impl\MultiInstrumentRandomGenerator.h" />
+    <ClInclude Include="..\include\music\preset_generators\impl\PatternModulationMelodyGenerator.h" />
+    <ClInclude Include="..\include\music\preset_generators\impl\PerfectFifthGenerator.h" />
+    <ClInclude Include="..\include\music\preset_generators\impl\RandomIntervalMelodyGenerator.h" />
+    <ClInclude Include="..\include\music\preset_generators\impl\TwoMelodyChordRandomGenerator.h" />
+    <ClInclude Include="..\include\music\preset_generators\impl\TwoMelodySingleNoteRandomGenerator.h" />
+    <ClInclude Include="..\include\music\preset_generators\impl\WideRandomIntervalMelodyGenerator.h" />
+    <ClInclude Include="..\include\music\preset_generators\SongGenerator.h" />
+    <ClInclude Include="..\include\music\preset_generators\Type.h" />
+    <ClInclude Include="..\include\music\preset_generators\type\AeolianRandomType.h" />
+    <ClInclude Include="..\include\music\preset_generators\type\Max108RandomType.h" />
+    <ClInclude Include="..\include\music\preset_generators\type\MultiInstrumentRandomType.h" />
+    <ClInclude Include="..\include\music\preset_generators\type\PatternModulationMelodyType.h" />
+    <ClInclude Include="..\include\music\preset_generators\type\PerfectFifthType.h" />
+    <ClInclude Include="..\include\music\preset_generators\type\RandomIntervalMelodyType.h" />
+    <ClInclude Include="..\include\music\preset_generators\type\TwoMelodyChordRandomType.h" />
+    <ClInclude Include="..\include\music\preset_generators\type\TwoMelodySingleNoteRandomType.h" />
+    <ClInclude Include="..\include\music\preset_generators\type\WideRandomIntervalMelodyType.h" />
+    <ClInclude Include="..\include\music\RangeIntervalMelody.h" />
+    <ClInclude Include="..\include\music\rhythm\RandomRhythmGenerator.h" />
+    <ClInclude Include="..\include\music\rhythm\RhythmGenerator.h" />
+    <ClInclude Include="..\include\music\rhythm\WeightRandomRhythmGenerator.h" />
+    <ClInclude Include="..\include\music\scale\DoubleHarmonicMinorScale.h" />
+    <ClInclude Include="..\include\music\scale\NaturalMinorScale.h" />
+    <ClInclude Include="..\include\music\scale\Scale.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\gui\AboutBox.cpp" />
+    <ClCompile Include="..\src\gui\ComboBoxOption.cpp" />
+    <ClCompile Include="..\src\gui\Event.cpp" />
+    <ClCompile Include="..\src\gui\EventHandler.cpp" />
+    <ClCompile Include="..\src\gui\EventSystem.cpp" />
+    <ClCompile Include="..\src\gui\InstrumentListOption.cpp" />
+    <ClCompile Include="..\src\gui\LogTab.cpp" />
+    <ClCompile Include="..\src\gui\MainTabs.cpp" />
+    <ClCompile Include="..\src\gui\MainWindow.cpp" />
+    <ClCompile Include="..\src\gui\MBStringUtils.cpp" />
+    <ClCompile Include="..\src\gui\PresetGeneratorOptions.cpp" />
+    <ClCompile Include="..\src\gui\PresetGeneratorTab.cpp" />
+    <ClCompile Include="..\src\gui\TimeSignatureOption.cpp" />
+    <ClCompile Include="..\src\gui\TrackOptionItem.cpp" />
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_advancedsequencer.cpp" />
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_driver.cpp" />
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_driverdump.cpp" />
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_edittrack.cpp" />
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_file.cpp" />
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_fileread.cpp" />
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_filereadmultitrack.cpp" />
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_fileshow.cpp" />
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_filewrite.cpp" />
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_filewritemultitrack.cpp" />
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_keysig.cpp" />
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_manager.cpp" />
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_matrix.cpp" />
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_midi.cpp" />
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_msg.cpp" />
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_multitrack.cpp" />
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_parser.cpp" />
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_process.cpp" />
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_queue.cpp" />
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_sequencer.cpp" />
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_showcontrol.cpp" />
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_showcontrolhandler.cpp" />
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_smpte.cpp" />
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_sysex.cpp" />
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_tempo.cpp" />
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_tick.cpp" />
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_track.cpp" />
+    <ClCompile Include="..\src\jdksmidi\jdksmidi_utils.cpp" />
+    <ClCompile Include="..\src\main\Generator.cpp" />
+    <ClCompile Include="..\src\main\GeneratorException.cpp" />
+    <ClCompile Include="..\src\main\GeneratorLog.cpp" />
+    <ClCompile Include="..\src\main\MIDI.cpp" />
+    <ClCompile Include="..\src\main\MIDITrack.cpp" />
+    <ClCompile Include="..\src\main\MusicGenerator.cpp" />
+    <ClCompile Include="..\src\main\PresetGeneratorTask.cpp" />
+    <ClCompile Include="..\src\main\Song.cpp" />
+    <ClCompile Include="..\src\main\workspace\Track.cpp" />
+    <ClCompile Include="..\src\main\workspace\TrackBoard.cpp" />
+    <ClCompile Include="..\src\main\workspace\TrackBoardMelody.cpp" />
+    <ClCompile Include="..\src\main\workspace\TrackBoardMelodyParams.cpp" />
+    <ClCompile Include="..\src\main\workspace\TrackBoardMelodyType.cpp" />
+    <ClCompile Include="..\src\main\workspace\TrackBoardParamRandomize.cpp" />
+    <ClCompile Include="..\src\main\workspace\TrackBoardParamVariation.cpp" />
+    <ClCompile Include="..\src\main\workspace\TrackChord.cpp" />
+    <ClCompile Include="..\src\main\workspace\TrackHarmonousNote.cpp" />
+    <ClCompile Include="..\src\main\workspace\TrackItem.cpp" />
+    <ClCompile Include="..\src\main\workspace\TrackNote.cpp" />
+    <ClCompile Include="..\src\MusicGeneratorApp.cpp" />
+    <ClCompile Include="..\src\music\chord\Chord.cpp" />
+    <ClCompile Include="..\src\music\chord\ChordNoteModulation.cpp" />
+    <ClCompile Include="..\src\music\chord\WeightRandomChordGenerator.cpp" />
+    <ClCompile Include="..\src\music\ConnectedHarmonyMelody.cpp" />
+    <ClCompile Include="..\src\music\FunctionRandomRangeIntervalMelody.cpp" />
+    <ClCompile Include="..\src\music\harmony\Harmony.cpp" />
+    <ClCompile Include="..\src\music\Melody.cpp" />
+    <ClCompile Include="..\src\music\MelodyParameter.cpp" />
+    <ClCompile Include="..\src\music\MelodyRepeatMelody.cpp" />
+    <ClCompile Include="..\src\music\ModularMelody.cpp" />
+    <ClCompile Include="..\src\music\modulation\FunctionNoteModulation.cpp" />
+    <ClCompile Include="..\src\music\modulation\ModulationFunctions.cpp" />
+    <ClCompile Include="..\src\music\modulation\NoteModulation.cpp" />
+    <ClCompile Include="..\src\music\modulation\PatternMoteModulation.cpp" />
+    <ClCompile Include="..\src\music\modulation\RandomNoteModulation.cpp" />
+    <ClCompile Include="..\src\music\modulation\RandomShiftNoteModulation.cpp" />
+    <ClCompile Include="..\src\music\modulation\ScaleNoteModulation.cpp" />
+    <ClCompile Include="..\src\music\NoteByNoteMelody.cpp" />
+    <ClCompile Include="..\src\music\note\Note.cpp" />
+    <ClCompile Include="..\src\music\pattern\PatternGenerator.cpp" />
+    <ClCompile Include="..\src\music\pattern\RandomPatternGenerator.cpp" />
+    <ClCompile Include="..\src\music\PhraseMelody.cpp" />
+    <ClCompile Include="..\src\music\preset_generators\impl\AeolianRandomGenerator.cpp" />
+    <ClCompile Include="..\src\music\preset_generators\impl\Max108RandomGenerator.cpp" />
+    <ClCompile Include="..\src\music\preset_generators\impl\MultiInstrumentRandomGenerator.cpp" />
+    <ClCompile Include="..\src\music\preset_generators\impl\PatternModulationMelodyGenerator.cpp" />
+    <ClCompile Include="..\src\music\preset_generators\impl\PerfectFifthGenerator.cpp" />
+    <ClCompile Include="..\src\music\preset_generators\impl\RandomIntervalMelodyGenerator.cpp" />
+    <ClCompile Include="..\src\music\preset_generators\impl\TwoMelodyChordRandomGenerator.cpp" />
+    <ClCompile Include="..\src\music\preset_generators\impl\TwoMelodySingleNoteRandomGenerator.cpp" />
+    <ClCompile Include="..\src\music\preset_generators\impl\WideRandomIntervalMelodyGenerator.cpp" />
+    <ClCompile Include="..\src\music\preset_generators\SongGenerator.cpp" />
+    <ClCompile Include="..\src\music\preset_generators\Type.cpp" />
+    <ClCompile Include="..\src\music\preset_generators\type\AeolianRandomType.cpp" />
+    <ClCompile Include="..\src\music\preset_generators\type\Max108RandomType.cpp" />
+    <ClCompile Include="..\src\music\preset_generators\type\MultiInstrumentRandomType.cpp" />
+    <ClCompile Include="..\src\music\preset_generators\type\PatternModulationMelodyType.cpp" />
+    <ClCompile Include="..\src\music\preset_generators\type\PerfectFifthType.cpp" />
+    <ClCompile Include="..\src\music\preset_generators\type\RandomIntervalMelodyType.cpp" />
+    <ClCompile Include="..\src\music\preset_generators\type\TwoMelodyChordRandomType.cpp" />
+    <ClCompile Include="..\src\music\preset_generators\type\TwoMelodySingleNoteRandomType.cpp" />
+    <ClCompile Include="..\src\music\preset_generators\type\WideRandomIntervalMelodyType.cpp" />
+    <ClCompile Include="..\src\music\RangeIntervalMelody.cpp" />
+    <ClCompile Include="..\src\music\rhythm\RandomRhythmGenerator.cpp" />
+    <ClCompile Include="..\src\music\rhythm\RhythmGenerator.cpp" />
+    <ClCompile Include="..\src\music\rhythm\WeightRandomRhythmGenerator.cpp" />
+    <ClCompile Include="..\src\music\scale\DoubleHarmonicMinorScale.cpp" />
+    <ClCompile Include="..\src\music\scale\NaturalMinorScale.cpp" />
+    <ClCompile Include="..\src\music\scale\Scale.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MelodyGenerator.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="MelodyGenerator.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
