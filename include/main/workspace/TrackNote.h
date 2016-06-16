@@ -4,6 +4,7 @@
 #include <vector>
 #include <map>
 #include "TrackItem.h"
+#include "TrackItemObject.h"
 
 class TrackNote : public TrackItemObject {
 protected:

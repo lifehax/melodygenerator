@@ -9,6 +9,7 @@ TrackChord::TrackChord(int64_t time, int root, std::string degree, int length) :
 	this->degree = degree;
 	this->root = root;
 	this->notes = new std::vector<boost::tuple<TrackNote *, bool, int>>();
+	this->setNotes();
 }
 
 void TrackChord::setNotes() {
@@ -24,11 +25,15 @@ void TrackChord::setNotes() {
 		throw new GeneratorException("No root note returned from chord class.");
 	}
 	for (auto chordNote : *chordNotes) {
+		TrackNote * note = new TrackNote(this->getTrackTime(), chordNote.first, this->getLength());
+		note->setMelodyGroup(this->getMelodyGroup());
+		note->setInstrument(this->getInstrument());
 		this->notes->push_back({
-			new TrackNote(this->getTrackTime(), chordNote.first, this->getLength()),
+			note,
 			chordNote.second,
 			chordNote.first - rootNoteNum
 		});
+
 	}
 }
 
@@ -68,5 +73,33 @@ int TrackChord::getNumber() {
 
 void TrackChord::setNoteByNumber(int rootNote) {
 	this->setRootNote(rootNote);
+}
+
+void TrackChord::setMelodyGroup(std::string noteMelodyGroup) {
+	this->melodyGroup = noteMelodyGroup;
+	for (auto note : *(this->getNotes())) {
+		note->setMelodyGroup(noteMelodyGroup);
+	}
+}
+
+void TrackChord::setTrackTime(int64_t trackTime) {
+	this->trackTime = trackTime;
+	for (auto note : *(this->getNotes())) {
+		note->setTrackTime(trackTime);
+	}
+}
+
+void TrackChord::setInstrument(int instrument) {
+	this->midiInstrument = instrument;
+	for (auto note : *(this->getNotes())) {
+		note->setInstrument(instrument);
+	}
+}
+
+void TrackChord::setLength(int length) {
+	this->length = length;
+	for (auto note : *(this->getNotes())) {
+		note->setLength(length);
+	}
 }
 

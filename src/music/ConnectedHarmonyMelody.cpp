@@ -6,6 +6,7 @@
 #include "NoteModulation.h"
 #include "ConnectedHarmonyMelody.h"
 #include "Chord.h"
+#include "MusicGeneratorApp.h"
 
 ConnectedHarmonyMelody::ConnectedHarmonyMelody(MIDITrack * forTrack) : ModularMelody(forTrack) {
 	this->connectedMelodies = new ConnectedMelodies();

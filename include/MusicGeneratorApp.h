@@ -22,6 +22,7 @@ public:
 	BOOL initInstance(HINSTANCE hInstance, int nCmdShow);
 	HINSTANCE getInstance();
 	MainWindow * getWindow(HWND);
+	MainWindow * getWindow();
 };
 
 extern MusicGeneratorApp musicGeneratorApp;

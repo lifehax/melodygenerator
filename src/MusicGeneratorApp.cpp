@@ -95,6 +95,10 @@ MainWindow * MusicGeneratorApp::getWindow(HWND hWnd) {
 	return this->mainWindow;
 }
 
+MainWindow * MusicGeneratorApp::getWindow() {
+	return this->mainWindow;
+}
+
 HINSTANCE MusicGeneratorApp::getInstance() {
 	return this->hInst;
 }

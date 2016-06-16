@@ -219,6 +219,7 @@
     <ClInclude Include="..\include\main\workspace\TrackChord.h" />
     <ClInclude Include="..\include\main\workspace\TrackHarmonousNote.h" />
     <ClInclude Include="..\include\main\workspace\TrackItem.h" />
+    <ClInclude Include="..\include\main\workspace\TrackItemObject.h" />
     <ClInclude Include="..\include\main\workspace\TrackNote.h" />
     <ClInclude Include="..\include\MusicGeneratorApp.h" />
     <ClInclude Include="..\include\music\chord\Chord.h" />
@@ -335,10 +336,10 @@
     <ClCompile Include="..\src\main\workspace\TrackChord.cpp" />
     <ClCompile Include="..\src\main\workspace\TrackHarmonousNote.cpp" />
     <ClCompile Include="..\src\main\workspace\TrackItem.cpp" />
+    <ClCompile Include="..\src\main\workspace\TrackItemObject.cpp" />
     <ClCompile Include="..\src\main\workspace\TrackNote.cpp" />
     <ClCompile Include="..\src\MusicGeneratorApp.cpp" />
     <ClCompile Include="..\src\music\chord\Chord.cpp" />
-    <ClCompile Include="..\src\music\chord\ChordNoteModulation.cpp" />
     <ClCompile Include="..\src\music\chord\WeightRandomChordGenerator.cpp" />
     <ClCompile Include="..\src\music\ConnectedHarmonyMelody.cpp" />
     <ClCompile Include="..\src\music\FunctionRandomRangeIntervalMelody.cpp" />
@@ -347,6 +348,7 @@
     <ClCompile Include="..\src\music\MelodyParameter.cpp" />
     <ClCompile Include="..\src\music\MelodyRepeatMelody.cpp" />
     <ClCompile Include="..\src\music\ModularMelody.cpp" />
+    <ClCompile Include="..\src\music\modulation\ChordNoteModulation.cpp" />
     <ClCompile Include="..\src\music\modulation\FunctionNoteModulation.cpp" />
     <ClCompile Include="..\src\music\modulation\ModulationFunctions.cpp" />
     <ClCompile Include="..\src\music\modulation\NoteModulation.cpp" />

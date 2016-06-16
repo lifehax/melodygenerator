@@ -2,6 +2,7 @@
 
 #include <boost/tuple/tuple.hpp>
 #include "TrackItem.h"
+#include "TrackItemObject.h"
 
 enum class TrackChordVariable {
 	NOTE = 0,
@@ -34,13 +35,10 @@ public:
 	void setRootNote(int);
 	virtual void setNoteByNumber(int);
 
-	void addChordNote(TrackNote *);
-	void removeChordNote(TrackNote *);
 	void removeAllNotes();
 
-	bool matchesAny(TrackNote *);
-	bool matchesAll(TrackNote *);
-	int size();
-
-	void change(std::string);
+	virtual void setMelodyGroup(std::string noteMelodyGroup);
+	virtual void setTrackTime(int64_t trackTime);
+	virtual void setInstrument(int instrument);
+	virtual void setLength(int length);
 };

@@ -128,7 +128,6 @@ void TwoMelodyChordRandomGenerator::generateTrack() {
 			int thisNote = (rand() % ((midHigh - 5) - (midLow + 5))) + midLow;
 			mid = midNotes->addMelody<ConnectedHarmonyMelody>();
 			mid->setParam<int>(MelodyParameterType::PRIORITY, harmonizePriority++);
-			mid->setParam<int>(MelodyParameterType::SIZE, pick * rhythm->size());
 			mid->setParam<int>(MelodyParameterType::ROOT_NOTE, thisNote);
 
 			if (nextMidRhythm = 0) {
@@ -139,6 +138,8 @@ void TwoMelodyChordRandomGenerator::generateTrack() {
 			} else {
 				nextMidRhythm--;
 			}
+
+			mid->setParam<int>(MelodyParameterType::SIZE, pick * rhythm->size());
 
 			mid->setConnections(connectedMelodies);
 			mid->setParam<int64_t>(MelodyParameterType::TRACK_TIME, i);
@@ -152,7 +153,6 @@ void TwoMelodyChordRandomGenerator::generateTrack() {
 			int thisNote = (rand() % ((bassHigh - 5) - (bassLow + 5))) + bassLow;
 			bass = bassNotes->addMelody<ConnectedHarmonyMelody>();
 			bass->setParam<int>(MelodyParameterType::PRIORITY, harmonizePriority++);
-			bass->setParam<int>(MelodyParameterType::SIZE, pick * bassRhythm->size());
 			bass->setParam<int>(MelodyParameterType::ROOT_NOTE, thisNote);
 
 			if (nextBassRhythm = 0) {
@@ -162,6 +162,8 @@ void TwoMelodyChordRandomGenerator::generateTrack() {
 			} else {
 				nextBassRhythm--;
 			}
+
+			bass->setParam<int>(MelodyParameterType::SIZE, pick * bassRhythm->size());
 
 			bass->setConnections(connectedMelodies);
 			bass->setParam<int64_t>(MelodyParameterType::TRACK_TIME, i);

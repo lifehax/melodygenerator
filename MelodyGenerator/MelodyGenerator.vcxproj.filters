@@ -459,6 +459,9 @@
     <ClInclude Include="..\include\gui\MBStringUtils.h">
       <Filter>Header Files\gui</Filter>
     </ClInclude>
+    <ClInclude Include="..\include\main\workspace\TrackItemObject.h">
+      <Filter>Header Files\main\workspace</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -683,9 +686,6 @@
     <ClCompile Include="..\src\music\chord\Chord.cpp">
       <Filter>Source Files\music\chord</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\music\chord\ChordNoteModulation.cpp">
-      <Filter>Source Files\music\chord</Filter>
-    </ClCompile>
     <ClCompile Include="..\src\music\chord\WeightRandomChordGenerator.cpp">
       <Filter>Source Files\music\chord</Filter>
     </ClCompile>
@@ -796,6 +796,12 @@
     </ClCompile>
     <ClCompile Include="..\src\music\scale\Scale.cpp">
       <Filter>Source Files\music\scale</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\music\modulation\ChordNoteModulation.cpp">
+      <Filter>Source Files\music\modulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main\workspace\TrackItemObject.cpp">
+      <Filter>Source Files\main\workspace</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
